@@ -6,18 +6,14 @@
 	<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" /> -->
 		
 		
-        <project path="device/sony/tapioca_ss" name="TamsuiCM11/android_device_sony_tapioca_ss" revision="cm-11.0"/>
-        <project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0"/>
         <project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0-EXPERIMENTAL"/>
         <project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" revision="cm-11.0" />
-        <project path="kernel/sony/msm7x27a" name="TamsuiCM11/android_kernel_sony_msm7x27a" revision="master" />
+        <project path="kernel/sony/msm7x27a" name="CyanogenMod/android_kernel_sony_msm7x27a" revision="jellybean" />
         <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" revision="cm-11.0"/>
         <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" revision="cm-11.0"/>
         
         
         <project path="hardware/qcom/display-caf" name="TamsuiCM11/android_hardware_qcom_display-caf" revision="cm-11.0" />
-        <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
-        <project path="hardware/qcom/media-caf" name="TamsuiCM11/android_hardware_qcom_media-caf" revision="cm-11.0" />
        <!-- <project path="system/core" name="TamsuiCM11/android_system_core" groups="pdk" revision="stable/cm-11.0" />
         <project path="hardware/libhardware_legacy" name="TamsuiCM11/android_hardware_libhardware_legacy" groups="pdk" revision="stable/cm-11.0" />
         <project path="frameworks/opt/telephony" name="TamsuiCM11/android_frameworks_opt_telephony" groups="pdk" revision="stable/cm-11.0" />
